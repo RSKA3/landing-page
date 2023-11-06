@@ -86,7 +86,8 @@ button {
 
 .first img {
     height: 300px;
-    width: auto;
+    width: 300px;
+    object-fit: cover;
 }
 
 .second {
@@ -112,8 +113,13 @@ button {
 
 .images img{
     height: 200px;
-    width: auto;
+    width: 200px;
+    object-fit: cover;
     border-radius: 10px;
+}
+
+.images p{
+    width: 200px;
 }
 
 .third {
@@ -124,13 +130,14 @@ button {
 }
 
 .third-text {
-    width: 600px;
+    width: 750px;
 }
 
 .third-quote {
     font-size: 36px;
     color: #1F2937;
     margin-bottom: 0;
+    font-style: italic;
 }
 
 .third-author {
