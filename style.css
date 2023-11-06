@@ -5,6 +5,11 @@ body {
     font-family: roboto, sans-serif;
 }
 
+.first, .second, .third {
+    height: 400px;
+    flex: 1 ;
+}
+
 p {
     margin: 0;
     padding: 0;
@@ -30,12 +35,13 @@ ul {
     margin: 0;
     padding: 0;
     display: flex;
-    font-size: 18;
-    color: #E5E7EB;
 }
 
-li {
+a {
     margin-left: 15px;
+    font-size: 18;
+    color: #E5E7EB;
+    text-decoration: none;
 }
 
 .header-logo {
@@ -84,19 +90,30 @@ button {
 }
 
 .second {
-    text-align: center;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-header {
+    font-weight: bolder;
+    font-size: 30px;
+    margin-bottom: 30px;
 }
 
 .images {
     display: flex;
     justify-content: center;
     gap: 20px;
+    text-align: center;
 }
 
 .images img{
     height: 200px;
     width: auto;
+    border-radius: 10px;
 }
 
 .third {
@@ -132,9 +149,38 @@ button {
 
 .advertisement {
     background-color: #3882F6;
-    padding: 10px;
-    width: 800px;
+    padding: 20px;
+    width: 900px;
+    height: 100px;
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     border-radius: 10px;
+}
+
+.fourth-header {
+    font-size: 25px;
+    color: #F9FAF8;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.fourth-text {
+    color:#E5E7EB;
+}
+
+.advertisement-button {
+    border: 1px solid white;
+}
+
+.footer {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    font-size: 18px;
+    color: #E5E7EB;
 }
